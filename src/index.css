@@ -10,3 +10,21 @@ body,
   font-family: "Tomorrow", sans-serif;
   background-color: #14172b;
 }
+
+.gradient-background {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.gradient-border {
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(227, 231, 245, 0.1) 0%,
+    rgba(59, 63, 87, 0) 100%
+  );
+}
