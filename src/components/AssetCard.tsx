@@ -9,13 +9,17 @@ const AssetCard: React.FC<AssetCardProps> = ({
   asset: {
     name,
     price,
+    icon,
     percentangeChangeOfPrice,
     totalValueLocked,
     popularPairs,
   },
 }) => {
   return (
-    <div className="gradient-background w-56 gradient-border rounded-2xl p-4">
+    <div className="relative gradient-background w-72 gradient-border rounded-2xl p-4 pt-12">
+      <div className="gradient-background gradient-border w-[6.25rem] h-[6.25rem] rounded-full flex items-center justify-center mx-auto absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <img src={icon} alt={name} className="h-[50px] w-[50px]" />
+      </div>
       <Typography
         variant="p"
         className="text-asset text-center font-medium text-sm my-4"
