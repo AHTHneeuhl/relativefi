@@ -40,7 +40,7 @@ export const trendingAssets = [
   {
     icon: shibaIcon,
     name: "Shiba Inu (SHIB)",
-    price: "$0.00000001948",
+    price: "$0.0000001948",
     percentangeChangeOfPrice: "-8.1%",
     totalValueLocked: "$60,000",
     popularPairs: [solanaIcon, ethereumIcon, binanceIcon],
