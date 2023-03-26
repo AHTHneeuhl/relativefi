@@ -1,5 +1,11 @@
+import { Header } from "@/components";
+
 const TrendingAssets: React.FC = () => {
-  return <div>Treading Assets</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default TrendingAssets;
