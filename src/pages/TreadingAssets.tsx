@@ -1,9 +1,10 @@
-import { Header } from "@/components";
+import { Assets, Header } from "@/components";
 
 const TrendingAssets: React.FC = () => {
   return (
-    <div>
+    <div className="mx-auto w-[90%]">
       <Header />
+      <Assets />
     </div>
   );
 };
